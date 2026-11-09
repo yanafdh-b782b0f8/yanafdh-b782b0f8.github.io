@@ -1,0 +1,2638 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>爱情岛aqdlt - 情感故事与关系指南</title>
+  <meta name="description" content="爱情岛aqdlt汇聚情感故事、关系成长与恋爱心理内容，提供真实案例、沟通技巧与自我探索指南，适合关注亲密关系与情感健康的读者阅读。">
+  <meta name="keywords" content="情感故事,恋爱心理,亲密关系,沟通技巧,自我成长">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23f26d85'/%3E%3Cpath d='M16 24c-4-3-8-6.5-8-10.5C8 10 10.5 8 13 8c1.5 0 2.5.8 3 1.5.5-.7 1.5-1.5 3-1.5 2.5 0 5 2 5 5.5 0 4-4 7.5-8 10.5z' fill='%23fff'/%3E%3C/svg%3E">
+  <style>
+    :root {
+      --color-primary: #c94f6e;
+      --color-primary-light: #f8e6ea;
+      --color-primary-dark: #a83a55;
+      --color-accent: #e8a87c;
+      --color-bg: #faf7f5;
+      --color-surface: #ffffff;
+      --color-surface-alt: #fdf2f4;
+      --color-text: #2d2a2e;
+      --color-text-secondary: #6b656b;
+      --color-text-muted: #9e939e;
+      --color-border: #e8dfe2;
+      --color-tag-bg: #f2e6e9;
+      --color-tag-text: #8a4a5c;
+      --font-body: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+      --font-heading: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+      --space-xs: 4px;
+      --space-sm: 8px;
+      --space-md: 16px;
+      --space-lg: 24px;
+      --space-xl: 32px;
+      --space-2xl: 48px;
+      --space-3xl: 64px;
+      --radius-sm: 6px;
+      --radius-md: 10px;
+      --radius-lg: 16px;
+      --radius-xl: 24px;
+      --shadow-sm: 0 1px 3px rgba(45, 42, 46, 0.06);
+      --shadow-md: 0 4px 12px rgba(45, 42, 46, 0.08);
+      --shadow-lg: 0 8px 24px rgba(45, 42, 46, 0.1);
+      --header-height: 104px;
+      --container-max: 1360px;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: calc(var(--header-height) + 12px);
+    }
+
+    body {
+      font-family: var(--font-body);
+      background-color: var(--color-bg);
+      color: var(--color-text);
+      line-height: 1.7;
+      font-size: 15px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    button {
+      font-family: inherit;
+      cursor: pointer;
+      border: none;
+      background: none;
+    }
+
+    ul, ol {
+      list-style: none;
+    }
+
+    /* ===== 吸顶区域 ===== */
+    .sticky-wrapper {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .announcement-bar {
+      background: linear-gradient(90deg, var(--color-primary-dark), var(--color-primary));
+      color: #fff;
+      text-align: center;
+      padding: 8px var(--space-md);
+      font-size: 13px;
+      letter-spacing: 0.02em;
+      line-height: 1.5;
+    }
+
+    .announcement-bar strong {
+      font-weight: 600;
+    }
+
+    .site-header {
+      background: rgba(255, 255, 255, 0.96);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--color-border);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .header-inner {
+      max-width: var(--container-max);
+      margin: 0 auto;
+      padding: 0 var(--space-lg);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+      gap: var(--space-lg);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: var(--space-sm);
+      flex-shrink: 0;
+    }
+
+    .brand-icon {
+      width: 36px;
+      height: 36px;
+      flex-shrink: 0;
+    }
+
+    .brand-text {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--color-primary-dark);
+      letter-spacing: 0.02em;
+      white-space: nowrap;
+    }
+
+    .main-nav {
+      display: flex;
+      gap: var(--space-xs);
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .main-nav a {
+      font-size: 13.5px;
+      padding: 6px 12px;
+      border-radius: var(--radius-sm);
+      color: var(--color-text-secondary);
+      transition: background 0.2s, color 0.2s;
+      white-space: nowrap;
+    }
+
+    .main-nav a:hover,
+    .main-nav a:focus-visible {
+      background: var(--color-primary-light);
+      color: var(--color-primary-dark);
+      outline: 2px solid transparent;
+    }
+
+    .main-nav a:focus-visible {
+      outline: 2px solid var(--color-primary);
+      outline-offset: 1px;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: var(--space-sm);
+      flex-shrink: 0;
+    }
+
+    .search-box {
+      display: flex;
+      align-items: center;
+      background: var(--color-surface-alt);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-xl);
+      padding: 0 var(--space-sm);
+      height: 34px;
+      width: 180px;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .search-box:focus-within {
+      border-color: var(--color-primary);
+      box-shadow: 0 0 0 3px rgba(201, 79, 110, 0.12);
+    }
+
+    .search-box input {
+      border: none;
+      background: transparent;
+      font-size: 13px;
+      padding: 0 var(--space-xs);
+      width: 100%;
+      outline: none;
+      color: var(--color-text);
+      font-family: inherit;
+    }
+
+    .search-box input::placeholder {
+      color: var(--color-text-muted);
+    }
+
+    .search-box .search-icon {
+      width: 16px;
+      height: 16px;
+      flex-shrink: 0;
+      opacity: 0.5;
+    }
+
+    .btn-icon {
+      width: 34px;
+      height: 34px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      color: var(--color-text-secondary);
+      transition: background 0.2s;
+    }
+
+    .btn-icon:hover {
+      background: var(--color-primary-light);
+    }
+
+    .btn-icon:focus-visible {
+      outline: 2px solid var(--color-primary);
+      outline-offset: 2px;
+    }
+
+    /* ===== 首屏 ===== */
+    .hero {
+      background: linear-gradient(135deg, #fdf2f4 0%, #faf0f0 40%, #f8e6ea 100%);
+      padding: var(--space-3xl) var(--space-lg);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-inner {
+      max-width: var(--container-max);
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--space-3xl);
+      align-items: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-content {
+      max-width: 560px;
+    }
+
+    .hero-badge {
+      display: inline-block;
+      background: var(--color-primary-light);
+      color: var(--color-primary-dark);
+      font-size: 12px;
+      font-weight: 600;
+      padding: 4px 14px;
+      border-radius: var(--radius-xl);
+      margin-bottom: var(--space-md);
+      letter-spacing: 0.04em;
+    }
+
+    .hero h1 {
+      font-size: clamp(32px, 5vw, 52px);
+      font-weight: 800;
+      line-height: 1.15;
+      color: var(--color-primary-dark);
+      margin-bottom: var(--space-md);
+      letter-spacing: -0.01em;
+    }
+
+    .hero-desc {
+      font-size: 16px;
+      color: var(--color-text-secondary);
+      line-height: 1.8;
+      margin-bottom: var(--space-xl);
+      max-width: 480px;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: var(--space-md);
+      flex-wrap: wrap;
+    }
+
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-sm);
+      background: var(--color-primary);
+      color: #fff;
+      padding: 12px 28px;
+      border-radius: var(--radius-xl);
+      font-size: 15px;
+      font-weight: 600;
+      transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+      box-shadow: 0 4px 14px rgba(201, 79, 110, 0.3);
+    }
+
+    .btn-primary:hover {
+      background: var(--color-primary-dark);
+      transform: translateY(-1px);
+      box-shadow: 0 6px 20px rgba(201, 79, 110, 0.35);
+    }
+
+    .btn-primary:focus-visible {
+      outline: 2px solid var(--color-primary-dark);
+      outline-offset: 3px;
+    }
+
+    .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-sm);
+      background: transparent;
+      color: var(--color-primary-dark);
+      padding: 12px 28px;
+      border-radius: var(--radius-xl);
+      font-size: 15px;
+      font-weight: 600;
+      border: 2px solid var(--color-primary);
+      transition: background 0.2s, color 0.2s;
+    }
+
+    .btn-secondary:hover {
+      background: var(--color-primary-light);
+    }
+
+    .btn-secondary:focus-visible {
+      outline: 2px solid var(--color-primary-dark);
+      outline-offset: 3px;
+    }
+
+    .hero-visual {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+    }
+
+    .hero-visual svg {
+      width: 100%;
+      max-width: 440px;
+      height: auto;
+    }
+
+    /* ===== 三栏布局 ===== */
+    .layout-container {
+      max-width: var(--container-max);
+      margin: 0 auto;
+      padding: var(--space-xl) var(--space-lg);
+      display: grid;
+      grid-template-columns: 180px 1fr 260px;
+      gap: var(--space-xl);
+      align-items: start;
+    }
+
+    /* ===== 左频道栏 ===== */
+    .channel-sidebar {
+      position: sticky;
+      top: calc(var(--header-height) + var(--space-md));
+    }
+
+    .channel-sidebar h2 {
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--color-text-muted);
+      margin-bottom: var(--space-sm);
+      padding-left: var(--space-sm);
+    }
+
+    .channel-list {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    .channel-list a {
+      display: block;
+      padding: 8px var(--space-sm);
+      font-size: 14px;
+      color: var(--color-text-secondary);
+      border-radius: var(--radius-sm);
+      transition: background 0.15s, color 0.15s;
+      border-left: 3px solid transparent;
+    }
+
+    .channel-list a:hover,
+    .channel-list a:focus-visible {
+      background: var(--color-primary-light);
+      color: var(--color-primary-dark);
+      border-left-color: var(--color-primary);
+    }
+
+    .channel-list a:focus-visible {
+      outline: 2px solid var(--color-primary);
+      outline-offset: 1px;
+    }
+
+    /* ===== 中间主内容 ===== */
+    .main-content {
+      min-width: 0;
+    }
+
+    .content-section {
+      margin-bottom: var(--space-2xl);
+    }
+
+    .content-section:last-child {
+      margin-bottom: 0;
+    }
+
+    .section-header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: var(--space-md);
+      margin-bottom: var(--space-lg);
+      flex-wrap: wrap;
+    }
+
+    .section-header h2 {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--color-text);
+      letter-spacing: -0.01em;
+    }
+
+    .section-header .section-sub {
+      font-size: 13px;
+      color: var(--color-text-muted);
+    }
+
+    .section-link {
+      font-size: 13px;
+      color: var(--color-primary);
+      font-weight: 500;
+      white-space: nowrap;
+    }
+
+    .section-link:hover {
+      text-decoration: underline;
+    }
+
+    /* 概览文本 */
+    .overview-text {
+      background: var(--color-surface);
+      border-radius: var(--radius-lg);
+      padding: var(--space-lg);
+      box-shadow: var(--shadow-sm);
+      font-size: 15px;
+      line-height: 1.85;
+      color: var(--color-text-secondary);
+      border: 1px solid var(--color-border);
+    }
+
+    .overview-text p {
+      margin-bottom: var(--space-md);
+    }
+
+    .overview-text p:last-child {
+      margin-bottom: 0;
+    }
+
+    /* 卡片网格 */
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: var(--space-md);
+    }
+
+    .card {
+      background: var(--color-surface);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      border: 1px solid var(--color-border);
+      transition: transform 0.2s, box-shadow 0.2s;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .card-img {
+      width: 100%;
+      aspect-ratio: 4/3;
+      background: var(--color-surface-alt);
+      overflow: hidden;
+    }
+
+    .card-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s;
+    }
+
+    .card:hover .card-img img {
+      transform: scale(1.04);
+    }
+
+    .card-body {
+      padding: var(--space-md);
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+    }
+
+    .card-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-xs);
+      margin-bottom: var(--space-sm);
+    }
+
+    .tag {
+      display: inline-block;
+      font-size: 11px;
+      padding: 2px 8px;
+      border-radius: var(--radius-sm);
+      background: var(--color-tag-bg);
+      color: var(--color-tag-text);
+      font-weight: 500;
+      letter-spacing: 0.02em;
+    }
+
+    .tag-primary {
+      background: var(--color-primary-light);
+      color: var(--color-primary-dark);
+    }
+
+    .card-title {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--color-text);
+      margin-bottom: var(--space-xs);
+      line-height: 1.4;
+    }
+
+    .card-desc {
+      font-size: 13px;
+      color: var(--color-text-secondary);
+      line-height: 1.6;
+      flex: 1;
+      margin-bottom: var(--space-sm);
+    }
+
+    .card-meta {
+      display: flex;
+      align-items: center;
+      gap: var(--space-md);
+      font-size: 12px;
+      color: var(--color-text-muted);
+      padding-top: var(--space-sm);
+      border-top: 1px solid var(--color-border);
+    }
+
+    .card-meta .meta-item {
+      display: flex;
+      align-items: center;
+      gap: 3px;
+    }
+
+    .card-meta .hot {
+      color: var(--color-primary);
+      font-weight: 600;
+    }
+
+    /* 紧凑列表 */
+    .compact-list {
+      background: var(--color-surface);
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--color-border);
+      box-shadow: var(--shadow-sm);
+      overflow: hidden;
+    }
+
+    .compact-item {
+      display: flex;
+      align-items: flex-start;
+      gap: var(--space-md);
+      padding: var(--space-md) var(--space-lg);
+      border-bottom: 1px solid var(--color-border);
+      transition: background 0.15s;
+    }
+
+    .compact-item:last-child {
+      border-bottom: none;
+    }
+
+    .compact-item:hover {
+      background: var(--color-surface-alt);
+    }
+
+    .compact-index {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--color-primary);
+      min-width: 24px;
+      padding-top: 2px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .compact-body {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .compact-title {
+      font-size: 14.5px;
+      font-weight: 600;
+      color: var(--color-text);
+      margin-bottom: 2px;
+    }
+
+    .compact-title a:hover {
+      color: var(--color-primary);
+    }
+
+    .compact-desc {
+      font-size: 13px;
+      color: var(--color-text-secondary);
+      line-height: 1.6;
+    }
+
+    .compact-meta {
+      font-size: 12px;
+      color: var(--color-text-muted);
+      white-space: nowrap;
+      flex-shrink: 0;
+      padding-top: 2px;
+    }
+
+    /* 分类入口 */
+    .category-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: var(--space-sm);
+    }
+
+    .category-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: var(--space-xs);
+      padding: var(--space-lg) var(--space-sm);
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+      text-align: center;
+      transition: background 0.2s, border-color 0.2s, transform 0.15s;
+    }
+
+    .category-item:hover {
+      background: var(--color-primary-light);
+      border-color: var(--color-primary);
+      transform: translateY(-2px);
+    }
+
+    .category-item:focus-visible {
+      outline: 2px solid var(--color-primary);
+      outline-offset: 2px;
+    }
+
+    .category-icon {
+      font-size: 22px;
+      line-height: 1;
+    }
+
+    .category-name {
+      font-size: 13.5px;
+      font-weight: 600;
+      color: var(--color-text);
+    }
+
+    .category-count {
+      font-size: 11px;
+      color: var(--color-text-muted);
+    }
+
+    /* 深度解析 */
+    .deep-dive {
+      background: var(--color-surface);
+      border-radius: var(--radius-lg);
+      padding: var(--space-xl);
+      box-shadow: var(--shadow-sm);
+      border: 1px solid var(--color-border);
+    }
+
+    .deep-dive h3 {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--color-text);
+      margin-top: var(--space-xl);
+      margin-bottom: var(--space-sm);
+      padding-bottom: var(--space-xs);
+      border-bottom: 2px solid var(--color-primary-light);
+    }
+
+    .deep-dive h3:first-of-type {
+      margin-top: 0;
+    }
+
+    .deep-dive p {
+      font-size: 14.5px;
+      color: var(--color-text-secondary);
+      line-height: 1.85;
+      margin-bottom: var(--space-md);
+    }
+
+    .deep-dive ul {
+      margin-bottom: var(--space-md);
+      padding-left: var(--space-lg);
+    }
+
+    .deep-dive ul li {
+      font-size: 14.5px;
+      color: var(--color-text-secondary);
+      line-height: 1.8;
+      margin-bottom: var(--space-xs);
+      position: relative;
+      padding-left: var(--space-md);
+    }
+
+    .deep-dive ul li::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 11px;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--color-primary);
+    }
+
+    /* 体验指南步骤 */
+    .guide-steps {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-md);
+    }
+
+    .guide-step {
+      display: flex;
+      gap: var(--space-md);
+      background: var(--color-surface);
+      border-radius: var(--radius-lg);
+      padding: var(--space-lg);
+      border: 1px solid var(--color-border);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .step-number {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: var(--color-primary);
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 15px;
+      font-weight: 700;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .step-body h4 {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--color-text);
+      margin-bottom: var(--space-xs);
+    }
+
+    .step-body p {
+      font-size: 14px;
+      color: var(--color-text-secondary);
+      line-height: 1.75;
+    }
+
+    /* FAQ */
+    .faq-list {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-sm);
+    }
+
+    .faq-item {
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      transition: box-shadow 0.2s;
+    }
+
+    .faq-item[open] {
+      box-shadow: var(--shadow-md);
+    }
+
+    .faq-item summary {
+      padding: var(--space-md) var(--space-lg);
+      font-size: 14.5px;
+      font-weight: 600;
+      color: var(--color-text);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-md);
+      list-style: none;
+      transition: background 0.15s;
+    }
+
+    .faq-item summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .faq-item summary::after {
+      content: "+";
+      font-size: 18px;
+      font-weight: 400;
+      color: var(--color-primary);
+      flex-shrink: 0;
+      transition: transform 0.2s;
+    }
+
+    .faq-item[open] summary::after {
+      content: "−";
+    }
+
+    .faq-item summary:hover {
+      background: var(--color-surface-alt);
+    }
+
+    .faq-item summary:focus-visible {
+      outline: 2px solid var(--color-primary);
+      outline-offset: -2px;
+    }
+
+    .faq-answer {
+      padding: 0 var(--space-lg) var(--space-md);
+      font-size: 14px;
+      color: var(--color-text-secondary);
+      line-height: 1.8;
+    }
+
+    /* 用户评论 */
+    .comment-list {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-sm);
+    }
+
+    .comment-item {
+      display: flex;
+      gap: var(--space-md);
+      padding: var(--space-md) var(--space-lg);
+      background: var(--color-surface);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--color-border);
+    }
+
+    .comment-avatar {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      font-weight: 700;
+      color: #fff;
+    }
+
+    .comment-body {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .comment-header {
+      display: flex;
+      align-items: baseline;
+      gap: var(--space-sm);
+      margin-bottom: 2px;
+      flex-wrap: wrap;
+    }
+
+    .comment-nickname {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--color-text);
+    }
+
+    .comment-time {
+      font-size: 11px;
+      color: var(--color-text-muted);
+    }
+
+    .comment-text {
+      font-size: 13.5px;
+      color: var(--color-text-secondary);
+      line-height: 1.7;
+    }
+
+    /* 相关资讯 */
+    .news-list {
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-md);
+    }
+
+    .news-item {
+      display: flex;
+      gap: var(--space-md);
+      background: var(--color-surface);
+      border-radius: var(--radius-md);
+      border: 1px solid var(--color-border);
+      overflow: hidden;
+      transition: box-shadow 0.2s;
+    }
+
+    .news-item:hover {
+      box-shadow: var(--shadow-md);
+    }
+
+    .news-thumb {
+      width: 120px;
+      min-height: 80px;
+      flex-shrink: 0;
+      overflow: hidden;
+    }
+
+    .news-thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .news-body {
+      padding: var(--space-sm) var(--space-md) var(--space-sm) 0;
+      flex: 1;
+      min-width: 0;
+    }
+
+    .news-title {
+      font-size: 14.5px;
+      font-weight: 600;
+      color: var(--color-text);
+      margin-bottom: 2px;
+      line-height: 1.4;
+    }
+
+    .news-title:hover {
+      color: var(--color-primary);
+    }
+
+    .news-summary {
+      font-size: 12.5px;
+      color: var(--color-text-secondary);
+      line-height: 1.6;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .news-date {
+      font-size: 11px;
+      color: var(--color-text-muted);
+      margin-top: var(--space-xs);
+    }
+
+    /* 相关推荐标签 */
+    .tag-index {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-sm);
+    }
+
+    .tag-index a {
+      display: inline-block;
+      padding: 6px 16px;
+      background: var(--color-surface);
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-xl);
+      font-size: 13px;
+      color: var(--color-text-secondary);
+      transition: background 0.2s, border-color 0.2s, color 0.2s;
+    }
+
+    .tag-index a:hover {
+      background: var(--color-primary-light);
+      border-color: var(--color-primary);
+      color: var(--color-primary-dark);
+    }
+
+    .tag-index a:focus-visible {
+      outline: 2px solid var(--color-primary);
+      outline-offset: 2px;
+    }
+
+    /* 时间线 */
+    .timeline {
+      position: relative;
+      padding-left: var(--space-lg);
+    }
+
+    .timeline::before {
+      content: "";
+      position: absolute;
+      left: 7px;
+      top: 6px;
+      bottom: 6px;
+      width: 2px;
+      background: var(--color-border);
+    }
+
+    .timeline-item {
+      position: relative;
+      padding-bottom: var(--space-lg);
+      padding-left: var(--space-md);
+    }
+
+    .timeline-item:last-child {
+      padding-bottom: 0;
+    }
+
+    .timeline-item::before {
+      content: "";
+      position: absolute;
+      left: calc(-1 * var(--space-lg) + 3px);
+      top: 6px;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--color-primary);
+      border: 2px solid var(--color-surface);
+      box-shadow: 0 0 0 2px var(--color-primary-light);
+    }
+
+    .timeline-date {
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--color-primary);
+      margin-bottom: 2px;
+    }
+
+    .timeline-title {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--color-text);
+      margin-bottom: 2px;
+    }
+
+    .timeline-desc {
+      font-size: 13px;
+      color: var(--color-text-secondary);
+      line-height: 1.6;
+    }
+
+    /* ===== 右侧辅助栏 ===== */
+    .aux-sidebar {
+      position: sticky;
+      top: calc(var(--header-height) + var(--space-md));
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-lg);
+    }
+
+    .sidebar-card {
+      background: var(--color-surface);
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--color-border);
+      box-shadow: var(--shadow-sm);
+      overflow: hidden;
+    }
+
+    .sidebar-card-header {
+      padding: var(--space-md) var(--space-md) var(--space-sm);
+      border-bottom: 1px solid var(--color-border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .sidebar-card-header h3 {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--color-text);
+    }
+
+    .sidebar-card-header .more-link {
+      font-size: 12px;
+      color: var(--color-primary);
+    }
+
+    .sidebar-list {
+      padding: var(--space-sm) 0;
+    }
+
+    .sidebar-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: var(--space-sm);
+      padding: 7px var(--space-md);
+      font-size: 13px;
+      color: var(--color-text-secondary);
+      line-height: 1.5;
+      transition: background 0.15s;
+    }
+
+    .sidebar-list li:hover {
+      background: var(--color-surface-alt);
+    }
+
+    .sidebar-list .rank {
+      font-size: 11px;
+      font-weight: 700;
+      color: var(--color-text-muted);
+      min-width: 16px;
+      padding-top: 1px;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .sidebar-list .rank.top {
+      color: var(--color-primary);
+    }
+
+    .sidebar-list .item-text {
+      flex: 1;
+    }
+
+    .sidebar-list .item-text a:hover {
+      color: var(--color-primary);
+    }
+
+    .sidebar-list .item-hot {
+      font-size: 11px;
+      color: var(--color-primary);
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    .update-stream {
+      padding: var(--space-sm) var(--space-md);
+      display: flex;
+      flex-direction: column;
+      gap: var(--space-sm);
+    }
+
+    .update-item {
+      display: flex;
+      gap: var(--space-sm);
+      font-size: 12.5px;
+      color: var(--color-text-secondary);
+      line-height: 1.5;
+    }
+
+    .update-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--color-primary);
+      margin-top: 7px;
+      flex-shrink: 0;
+    }
+
+    .update-time {
+      font-size: 11px;
+      color: var(--color-text-muted);
+      margin-top: 1px;
+    }
+
+    /* ===== 页尾 ===== */
+    .site-footer {
+      background: #2d2a2e;
+      color: #b8b0b8;
+      padding: var(--space-2xl) var(--space-lg) var(--space-lg);
+      margin-top: var(--space-xl);
+    }
+
+    .footer-inner {
+      max-width: var(--container-max);
+      margin: 0 auto;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: var(--space-xl);
+      margin-bottom: var(--space-xl);
+    }
+
+    .footer-brand {
+      display: flex;
+      align-items: center;
+      gap: var(--space-sm);
+      margin-bottom: var(--space-md);
+    }
+
+    .footer-brand .brand-text {
+      color: #fff;
+      font-size: 18px;
+    }
+
+    .footer-desc {
+      font-size: 13px;
+      line-height: 1.8;
+      color: #9e939e;
+      max-width: 320px;
+    }
+
+    .footer-col h4 {
+      font-size: 13px;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: var(--space-sm);
+      letter-spacing: 0.04em;
+    }
+
+    .footer-col ul li {
+      margin-bottom: 6px;
+    }
+
+    .footer-col ul li a {
+      font-size: 13px;
+      color: #9e939e;
+      transition: color 0.2s;
+    }
+
+    .footer-col ul li a:hover {
+      color: #f8e6ea;
+    }
+
+    .footer-bottom {
+      border-top: 1px solid #3e3a3e;
+      padding-top: var(--space-md);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-md);
+      flex-wrap: wrap;
+    }
+
+    .footer-copy {
+      font-size: 12px;
+      color: #7a737a;
+    }
+
+    .footer-note {
+      font-size: 11px;
+      color: #6b656b;
+      text-align: right;
+    }
+
+    /* ===== 响应式 ===== */
+    @media (max-width: 1100px) {
+      .layout-container {
+        grid-template-columns: 160px 1fr;
+      }
+      .aux-sidebar {
+        display: none;
+      }
+      .hero-inner {
+        gap: var(--space-xl);
+      }
+    }
+
+    @media (max-width: 900px) {
+      .hero-inner {
+        grid-template-columns: 1fr;
+        gap: var(--space-xl);
+      }
+      .hero-visual {
+        order: -1;
+      }
+      .hero-visual svg {
+        max-width: 320px;
+      }
+      .header-inner {
+        flex-wrap: wrap;
+        height: auto;
+        padding: var(--space-sm) var(--space-md);
+        gap: var(--space-sm);
+      }
+      .main-nav {
+        order: 3;
+        width: 100%;
+        overflow-x: auto;
+        padding-bottom: var(--space-xs);
+        -webkit-overflow-scrolling: touch;
+      }
+      .main-nav a {
+        flex-shrink: 0;
+        font-size: 12.5px;
+        padding: 5px 10px;
+      }
+      .search-box {
+        width: 140px;
+      }
+      :root {
+        --header-height: 110px;
+      }
+      .layout-container {
+        grid-template-columns: 1fr;
+        padding: var(--space-lg) var(--space-md);
+      }
+      .channel-sidebar {
+        position: static;
+        order: 2;
+      }
+      .channel-list {
+        flex-direction: row;
+        overflow-x: auto;
+        gap: var(--space-xs);
+        padding-bottom: var(--space-xs);
+        -webkit-overflow-scrolling: touch;
+      }
+      .channel-list a {
+        white-space: nowrap;
+        border-left: none;
+        border-bottom: 2px solid transparent;
+        padding: 6px 12px;
+        font-size: 13px;
+      }
+      .channel-list a:hover,
+      .channel-list a:focus-visible {
+        border-left-color: transparent;
+        border-bottom-color: var(--color-primary);
+      }
+      .category-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .news-thumb {
+        width: 100px;
+      }
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: var(--space-lg);
+      }
+    }
+
+    @media (max-width: 740px) {
+      .announcement-bar {
+        font-size: 12px;
+        padding: 6px var(--space-sm);
+      }
+      .header-inner {
+        padding: var(--space-xs) var(--space-sm);
+      }
+      .brand-text {
+        font-size: 17px;
+      }
+      .brand-icon {
+        width: 30px;
+        height: 30px;
+      }
+      .search-box {
+        width: 120px;
+        height: 30px;
+      }
+      .hero {
+        padding: var(--space-xl) var(--space-md);
+      }
+      .hero h1 {
+        font-size: 28px;
+      }
+      .hero-desc {
+        font-size: 14px;
+      }
+      .hero-actions {
+        gap: var(--space-sm);
+      }
+      .btn-primary,
+      .btn-secondary {
+        padding: 10px 20px;
+        font-size: 14px;
+      }
+      .hero-visual {
+        display: none;
+      }
+      .card-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: var(--space-sm);
+      }
+      .card-body {
+        padding: var(--space-sm);
+      }
+      .card-title {
+        font-size: 13.5px;
+      }
+      .card-desc {
+        font-size: 12px;
+      }
+      .compact-item {
+        padding: var(--space-sm) var(--space-md);
+      }
+      .compact-title {
+        font-size: 13.5px;
+      }
+      .compact-desc {
+        font-size: 12px;
+      }
+      .compact-meta {
+        font-size: 11px;
+      }
+      .category-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--space-xs);
+      }
+      .category-item {
+        padding: var(--space-md) var(--space-xs);
+      }
+      .category-name {
+        font-size: 12.5px;
+      }
+      .deep-dive {
+        padding: var(--space-md);
+      }
+      .deep-dive h3 {
+        font-size: 16px;
+        margin-top: var(--space-lg);
+      }
+      .deep-dive p,
+      .deep-dive ul li {
+        font-size: 13.5px;
+      }
+      .guide-step {
+        padding: var(--space-md);
+        flex-direction: column;
+        gap: var(--space-sm);
+      }
+      .step-number {
+        width: 30px;
+        height: 30px;
+        font-size: 13px;
+      }
+      .faq-item summary {
+        padding: var(--space-sm) var(--space-md);
+        font-size: 13.5px;
+      }
+      .faq-answer {
+        padding: 0 var(--space-md) var(--space-sm);
+        font-size: 13px;
+      }
+      .comment-item {
+        padding: var(--space-sm) var(--space-md);
+      }
+      .comment-text {
+        font-size: 12.5px;
+      }
+      .news-item {
+        flex-direction: column;
+      }
+      .news-thumb {
+        width: 100%;
+        height: 140px;
+      }
+      .news-body {
+        padding: var(--space-sm) var(--space-md);
+      }
+      .news-title {
+        font-size: 13.5px;
+      }
+      .news-summary {
+        -webkit-line-clamp: 2;
+        font-size: 12px;
+      }
+      .footer-grid {
+        grid-template-columns: 1fr;
+        gap: var(--space-md);
+      }
+      .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .footer-note {
+        text-align: left;
+      }
+      .section-header h2 {
+        font-size: 18px;
+      }
+      .section-header .section-sub {
+        font-size: 12px;
+      }
+      .tag-index a {
+        font-size: 12px;
+        padding: 5px 12px;
+      }
+    }
+
+    @media (max-width: 400px) {
+      .card-grid {
+        grid-template-columns: 1fr;
+      }
+      .category-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    /* 搜索无结果提示 */
+    .no-results {
+      display: none;
+      padding: var(--space-lg);
+      text-align: center;
+      font-size: 14px;
+      color: var(--color-text-muted);
+      background: var(--color-surface);
+      border-radius: var(--radius-md);
+      border: 1px dashed var(--color-border);
+    }
+
+    .no-results.visible {
+      display: block;
+    }
+
+    /* 隐藏筛选结果 */
+    .hidden-by-search {
+      display: none !important;
+    }
+
+    /* 跳过导航 */
+    .skip-link {
+      position: absolute;
+      top: -100px;
+      left: var(--space-md);
+      background: var(--color-primary);
+      color: #fff;
+      padding: var(--space-sm) var(--space-md);
+      border-radius: var(--radius-sm);
+      z-index: 999;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .skip-link:focus {
+      top: var(--space-sm);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+  </style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<a href="#main-content" class="skip-link">跳转到主要内容</a>
+
+<!-- 吸顶公告条 + 页头 -->
+<div class="sticky-wrapper">
+  <div class="announcement-bar" role="status">
+    <strong>本周更新</strong> · 新增 12 篇关系成长档案 · 秋季情感书单 8 本已上线 · 11 月 8 日社区问答专场开放
+  </div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="/#hero" class="brand" aria-label="爱情岛aqdlt 首页">
+        <svg class="brand-icon" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="18" cy="18" r="16" fill="#c94f6e"/>
+          <path d="M18 28c-5-3.5-9.5-7.5-9.5-12.5C8.5 11.5 11.5 9 14.5 9c1.8 0 3 .9 3.5 1.8.5-.9 1.7-1.8 3.5-1.8 3 0 6 2.5 6 6.5 0 5-4.5 9-9.5 12.5z" fill="#fff"/>
+          <circle cx="13" cy="14.5" r="1.2" fill="#c94f6e"/>
+          <circle cx="23" cy="14.5" r="1.2" fill="#c94f6e"/>
+        </svg>
+        <span class="brand-text">爱情岛aqdlt</span>
+      </a>
+      <nav class="main-nav" aria-label="主题导航">
+        <a href="/#overview">关系概览</a>
+        <a href="/#featured">精选故事</a>
+        <a href="/#latest">最新动态</a>
+        <a href="/#categories">情感分类</a>
+        <a href="/#deep-dive">深度解析</a>
+        <a href="/#guide">体验指南</a>
+        <a href="/#faq">常见问答</a>
+        <a href="/#comments">岛民评论</a>
+        <a href="/#news">相关资讯</a>
+      </nav>
+      <div class="header-actions">
+        <div class="search-box" role="search">
+          <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="11" cy="11" r="7"/>
+            <path d="M16 16l4 4"/>
+          </svg>
+          <input type="search" id="searchInput" placeholder="搜索故事或话题" aria-label="搜索爱情岛aqdlt内容" autocomplete="off">
+        </div>
+        <button class="btn-icon" type="button" aria-label="收藏本页" title="收藏">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M12 3l2.5 6.5L21 10l-5 4.5L17.5 21 12 17.5 6.5 21 8 14.5 3 10l6.5-.5L12 3z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+</div>
+
+<main id="main-content">
+
+  <!-- 首屏 -->
+  <section class="hero" id="hero">
+    <div class="hero-inner">
+      <div class="hero-content">
+        <span class="hero-badge">情感成长 · 关系洞察</span>
+        <h1>爱情岛aqdlt</h1>
+        <p class="hero-desc">
+          汇聚情感故事、亲密关系成长与恋爱心理的深度内容。从真实案例、沟通技巧到自我探索，帮助你在每一段关系里看得更清楚、走得更稳。
+        </p>
+        <div class="hero-actions">
+          <a href="#featured" class="btn-primary">
+            浏览精选故事
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a href="#categories" class="btn-secondary">按分类探索</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <svg viewBox="0 0 440 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="heroGrad1" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#f8e6ea"/>
+              <stop offset="100%" stop-color="#f2d0d8"/>
+            </linearGradient>
+            <linearGradient id="heroGrad2" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#c94f6e"/>
+              <stop offset="100%" stop-color="#a83a55"/>
+            </linearGradient>
+            <linearGradient id="heroGrad3" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#e8a87c"/>
+              <stop offset="100%" stop-color="#d4916a"/>
+            </linearGradient>
+          </defs>
+          <circle cx="220" cy="190" r="150" fill="url(#heroGrad1)" opacity="0.6"/>
+          <circle cx="220" cy="190" r="100" fill="#fff" opacity="0.5"/>
+          <path d="M220 280c-35-25-65-52-65-85 0-25 18-42 38-42 12 0 21 6 27 14 6-8 15-14 27-14 20 0 38 17 38 42 0 33-30 60-65 85z" fill="url(#heroGrad2)" opacity="0.9"/>
+          <circle cx="160" cy="130" r="18" fill="url(#heroGrad3)" opacity="0.7"/>
+          <circle cx="290" cy="110" r="12" fill="#c94f6e" opacity="0.3"/>
+          <circle cx="310" cy="250" r="20" fill="#e8a87c" opacity="0.35"/>
+          <circle cx="130" cy="260" r="14" fill="#c94f6e" opacity="0.25"/>
+          <path d="M100 200 Q140 160 180 200" stroke="#c94f6e" stroke-width="2.5" opacity="0.3" fill="none"/>
+          <path d="M260 120 Q300 90 340 130" stroke="#e8a87c" stroke-width="2.5" opacity="0.3" fill="none"/>
+          <rect x="60" y="300" width="320" height="3" rx="1.5" fill="#e8dfe2"/>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- 三栏布局容器 -->
+  <div class="layout-container">
+
+    <!-- 左侧频道栏 -->
+    <aside class="channel-sidebar" aria-label="频道索引">
+      <h2>频道索引</h2>
+      <nav class="channel-list">
+        <a href="/#overview">关系概览</a>
+        <a href="/#featured">精选故事</a>
+        <a href="/#latest">最新动态</a>
+        <a href="/#categories">情感分类</a>
+        <a href="/#deep-dive">深度解析</a>
+        <a href="/#guide">体验指南</a>
+        <a href="/#faq">常见问答</a>
+        <a href="/#comments">岛民评论</a>
+        <a href="/#news">相关资讯</a>
+        <a href="/#recommend">延伸推荐</a>
+        <a href="/#timeline">更新轨迹</a>
+      </nav>
+    </aside>
+
+    <!-- 中间主内容 -->
+    <div class="main-content">
+
+      <!-- 板块1：主题领域概览 -->
+      <section class="content-section" id="overview">
+        <div class="section-header">
+          <h2>关系领域概览：情感生活里值得关注的方向</h2>
+          <span class="section-sub">2026-11-08 更新</span>
+        </div>
+        <div class="overview-text">
+          <p>亲密关系与情感成长涵盖的方向比多数人想象中更细：从初识阶段的心动判断、暧昧期信号识别，到长期关系里的冲突修复、信任重建，再到分开之后的自我整理与重新出发，每个阶段都有可以参照的经验和可以讨论的话题。</p>
+          <p>近年来，情感内容消费呈现出几个明显趋势：一是“具体场景化”，读者更关心“伴侣冷战三天怎么开口”这类具体情境，而非抽象理论；二是“自我探索前置”，越来越多人先关注依恋类型、情绪模式等自我认知话题，再进入关系讨论；三是“真实案例驱动”，基于真实经历改编的故事和复盘比纯观点文章更受欢迎。</p>
+          <p>在爱情岛aqdlt的内容体系里，你可以找到「沟通技巧」「依恋类型」「关系修复」「自我边界」「分手疗愈」「长期关系经营」等具体方向的内容。本期重点更新了「冷战破冰的 5 种开口方式」「回避型依恋的日常识别信号」「长期关系里的仪式感设计」等专题，以及 12 篇来自社区的真实关系复盘。</p>
+        </div>
+      </section>
+
+      <!-- 板块2：精选内容推荐 -->
+      <section class="content-section" id="featured">
+        <div class="section-header">
+          <h2>精选故事与关系指南</h2>
+          <a href="/#deep-dive" class="section-link">查看深度解析 →</a>
+        </div>
+        <div class="card-grid" id="featuredGrid">
+          <article class="card" data-searchable="冷战破冰 沟通技巧 冲突修复">
+            <div class="card-img">
+              <img src="https://picsum.photos/seed/lengzhan-pojie44/400/300" alt="冷战破冰沟通场景封面" width="400" height="300" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="card-tags">
+                <span class="tag tag-primary">沟通技巧</span>
+                <span class="tag">冲突修复</span>
+                <span class="tag">冷战</span>
+              </div>
+              <h3 class="card-title">冷战三天后，如何开口说第一句话</h3>
+              <p class="card-desc">拆解冷战背后的情绪需求，给出 5 种不同关系阶段的破冰话术，从“我句式”练习到非指责性开场，附具体对话示例。</p>
+              <div class="card-meta">
+                <span class="meta-item hot">热度 9.2</span>
+                <span class="meta-item">更新 11-07</span>
+                <span class="meta-item">阅读 2.4k</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-searchable="回避型依恋 识别信号 依恋类型">
+            <div class="card-img">
+              <img src="https://picsum.photos/seed/huibi-yilian58/400/300" alt="回避型依恋识别信号封面" width="400" height="300" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="card-tags">
+                <span class="tag tag-primary">依恋类型</span>
+                <span class="tag">自我认知</span>
+                <span class="tag">回避型</span>
+              </div>
+              <h3 class="card-title">回避型依恋的 7 个日常识别信号</h3>
+              <p class="card-desc">从消息回复节奏、冲突时的撤退反应到亲密推进后的疏离感，逐条对照日常表现，帮助区分“独立”与“回避”的边界。</p>
+              <div class="card-meta">
+                <span class="meta-item hot">热度 8.8</span>
+                <span class="meta-item">更新 11-06</span>
+                <span class="meta-item">阅读 1.9k</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-searchable="长期关系 仪式感 关系经营">
+            <div class="card-img">
+              <img src="https://picsum.photos/seed/changqi-yishi33/400/300" alt="长期关系仪式感设计封面" width="400" height="300" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="card-tags">
+                <span class="tag tag-primary">长期关系</span>
+                <span class="tag">仪式感</span>
+                <span class="tag">关系经营</span>
+              </div>
+              <h3 class="card-title">在一起五年后，仪式感还需要吗</h3>
+              <p class="card-desc">讨论长期关系中仪式感的实际作用，给出低成本、可持续的日常仪式设计清单，避免形式化带来的额外压力。</p>
+              <div class="card-meta">
+                <span class="meta-item hot">热度 8.5</span>
+                <span class="meta-item">更新 11-05</span>
+                <span class="meta-item">阅读 1.6k</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-searchable="分手疗愈 情绪整理 自我重建">
+            <div class="card-img">
+              <img src="https://picsum.photos/seed/fenshou-liaoyu27/400/300" alt="分手后的情绪整理封面" width="400" height="300" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="card-tags">
+                <span class="tag tag-primary">分手疗愈</span>
+                <span class="tag">情绪整理</span>
+                <span class="tag">自我重建</span>
+              </div>
+              <h3 class="card-title">分开后的第一个月：情绪整理清单</h3>
+              <p class="card-desc">按周拆解分手后常见的情绪波动，提供可执行的日常记录方法、社交边界设定建议和重新建立生活节奏的步骤。</p>
+              <div class="card-meta">
+                <span class="meta-item hot">热度 9.0</span>
+                <span class="meta-item">更新 11-04</span>
+                <span class="meta-item">阅读 2.1k</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-searchable="暧昧期 信号识别 关系推进">
+            <div class="card-img">
+              <img src="https://picsum.photos/seed/aimei-xinhao19/400/300" alt="暧昧期信号识别封面" width="400" height="300" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="card-tags">
+                <span class="tag tag-primary">暧昧期</span>
+                <span class="tag">信号识别</span>
+                <span class="tag">关系推进</span>
+              </div>
+              <h3 class="card-title">暧昧期的 4 个推进时机与 3 个误判信号</h3>
+              <p class="card-desc">区分“对方有回应”和“对方只是礼貌”，列出关系推进的可观察节点，以及容易过度解读的常见行为。</p>
+              <div class="card-meta">
+                <span class="meta-item hot">热度 8.7</span>
+                <span class="meta-item">更新 11-03</span>
+                <span class="meta-item">阅读 1.7k</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-searchable="信任重建 出轨修复 关系危机">
+            <div class="card-img">
+              <img src="https://picsum.photos/seed/xinren-chongjian12/400/300" alt="信任重建路径封面" width="400" height="300" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="card-tags">
+                <span class="tag tag-primary">信任重建</span>
+                <span class="tag">关系危机</span>
+                <span class="tag">修复路径</span>
+              </div>
+              <h3 class="card-title">信任受损之后，重建需要几步</h3>
+              <p class="card-desc">从坦诚沟通、行为一致到时间验证，梳理信任重建的现实阶段，讨论哪些情况值得修复、哪些信号需要重新评估。</p>
+              <div class="card-meta">
+                <span class="meta-item hot">热度 8.4</span>
+                <span class="meta-item">更新 11-02</span>
+                <span class="meta-item">阅读 1.5k</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-searchable="自我边界 拒绝练习 关系平衡">
+            <div class="card-img">
+              <img src="https://picsum.photos/seed/ziwo-bianjie41/400/300" alt="自我边界建立封面" width="400" height="300" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="card-tags">
+                <span class="tag tag-primary">自我边界</span>
+                <span class="tag">拒绝练习</span>
+                <span class="tag">关系平衡</span>
+              </div>
+              <h3 class="card-title">在亲密关系里，边界感到底怎么建立</h3>
+              <p class="card-desc">区分“边界”与“距离感”，提供从日常小事开始练习表达需求的步骤，附 6 句可以直接使用的话语模板。</p>
+              <div class="card-meta">
+                <span class="meta-item hot">热度 8.6</span>
+                <span class="meta-item">更新 11-01</span>
+                <span class="meta-item">阅读 1.8k</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-searchable="情绪表达 亲密沟通 需求表达">
+            <div class="card-img">
+              <img src="https://picsum.photos/seed/qingxu-biaoda22/400/300" alt="情绪表达练习封面" width="400" height="300" loading="lazy">
+            </div>
+            <div class="card-body">
+              <div class="card-tags">
+                <span class="tag tag-primary">情绪表达</span>
+                <span class="tag">亲密沟通</span>
+                <span class="tag">需求表达</span>
+              </div>
+              <h3 class="card-title">把“没事”换成具体表达：情绪沟通练习</h3>
+              <p class="card-desc">针对习惯性压抑情绪的表达困难，给出 3 层递进的表达框架，从识别情绪到说出具体需求，附日常练习场景。</p>
+              <div class="card-meta">
+                <span class="meta-item hot">热度 8.3</span>
+                <span class="meta-item">更新 10-30</span>
+                <span class="meta-item">阅读 1.4k</span>
+              </div>
+            </div>
+          </article>
+        </div>
+        <div class="no-results" id="noResultsFeatured">没有找到匹配的内容，试试其他关键词。</div>
+      </section>
+
+      <!-- 板块3：最新更新 / 动态 -->
+      <section class="content-section" id="latest">
+        <div class="section-header">
+          <h2>最新更新与社区动态</h2>
+          <span class="section-sub">截至 2026-11-08</span>
+        </div>
+        <div class="compact-list" id="latestList">
+          <div class="compact-item" data-searchable="冷战破冰 话术 更新">
+            <span class="compact-index">01</span>
+            <div class="compact-body">
+              <div class="compact-title"><a href="/#featured">冷战破冰话术专题新增 3 组对话示例</a></div>
+              <p class="compact-desc">针对“已读不回”“分房睡”“当没事发生”三种场景，补充了可直接参考的开口方式。</p>
+            </div>
+            <span class="compact-meta">今天 09:30</span>
+          </div>
+          <div class="compact-item" data-searchable="回避型依恋 自测清单 更新">
+            <span class="compact-index">02</span>
+            <div class="compact-body">
+              <div class="compact-title"><a href="/#featured">回避型依恋自测清单更新至 v2.3</a></div>
+              <p class="compact-desc">新增“亲密推进后的疏离反应”维度，调整了 4 道题目的表述方式，提高区分度。</p>
+            </div>
+            <span class="compact-meta">昨天 21:10</span>
+          </div>
+          <div class="compact-item" data-searchable="社区问答 情感专场 开放">
+            <span class="compact-index">03</span>
+            <div class="compact-body">
+              <div class="compact-title"><a href="/#comments">11 月社区问答专场开放报名</a></div>
+              <p class="compact-desc">本期主题为“长期关系里的需求表达”，限 80 人参与，问答记录将在活动后整理发布。</p>
+            </div>
+            <span class="compact-meta">11-07 18:00</span>
+          </div>
+          <div class="compact-item" data-searchable="分手疗愈 清单 更新">
+            <span class="compact-index">04</span>
+            <div class="compact-body">
+              <div class="compact-title"><a href="/#featured">分手疗愈清单新增“社交边界”章节</a></div>
+              <p class="compact-desc">涵盖共同朋友的处理方式、社交媒体断联节奏，以及重新进入社交场合的时机建议。</p>
+            </div>
+            <span class="compact-meta">11-06 14:20</span>
+          </div>
+          <div class="compact-item" data-searchable="仪式感 日常设计 更新">
+            <span class="compact-index">05</span>
+            <div class="compact-body">
+              <div class="compact-title"><a href="/#featured">长期关系仪式感设计清单扩充至 18 项</a></div>
+              <p class="compact-desc">新增“低成本日常仪式”分类，覆盖通勤、做饭、睡前三个高频生活场景。</p>
+            </div>
+            <span class="compact-meta">11-05 11:00</span>
+          </div>
+          <div class="compact-item" data-searchable="信任重建 阶段梳理 更新">
+            <span class="compact-index">06</span>
+            <div class="compact-body">
+              <div class="compact-title"><a href="/#deep-dive">信任重建路径图完成阶段梳理</a></div>
+              <p class="compact-desc">将重建过程划分为坦诚期、验证期和巩固期，补充了每个阶段的典型挑战与应对方式。</p>
+            </div>
+            <span class="compact-meta">11-04 16:45</span>
+          </div>
+          <div class="compact-item" data-searchable="边界感 话语模板 更新">
+            <span class="compact-index">07</span>
+            <div class="compact-body">
+              <div class="compact-title"><a href="/#guide">边界感话语模板新增 6 句日常表达</a></div>
+              <p class="compact-desc">针对“不想参加对方聚会”“需要独处时间”等具体情境，提供不伤关系的表达方式。</p>
+            </div>
+            <span class="compact-meta">11-03 10:15</span>
+          </div>
+          <div class="compact-item" data-searchable="情绪表达 练习 更新">
+            <span class="compact-index">08</span>
+            <div class="compact-body">
+              <div class="compact-title"><a href="/#guide">情绪表达三层框架配套练习已上线</a></div>
+              <p class="compact-desc">包含 7 天日常记录模板和 3 个双人对话练习，适合在关系中同步使用。</p>
+            </div>
+            <span class="compact-meta">11-02 19:30</span>
+          </div>
+          <div class="compact-item" data-searchable="暧昧期 误判信号 更新">
+            <span class="compact-index">09</span>
+            <div class="compact-body">
+              <div class="compact-title"><a href="/#featured">暧昧期误判信号清单补充 2 个案例</a></div>
+              <p class="compact-desc">新增“高频聊天但从不主动约见”和“只在深夜联系”两种常见误读情境的分析。</p>
+            </div>
+            <span class="compact-meta">11-01 08:50</span>
+          </div>
+          <div class="compact-item" data-searchable="情感书单 秋季 上线">
+            <span class="compact-index">10</span>
+            <div class="compact-body">
+              <div class="compact-title"><a href="/#recommend">秋季情感书单 8 本已整理上线</a></div>
+              <p class="compact-desc">涵盖依恋理论、沟通实践、关系叙事三个方向，每本附一段选读理由与适用人群说明。</p>
+            </div>
+            <span class="compact-meta">10-30 13:00</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 板块4：分类入口 -->
+      <section class="content-section" id="categories">
+        <div class="section-header">
+          <h2>按情感方向探索</h2>
+          <span class="section-sub">8 个内容分类</span>
+        </div>
+        <div class="category-grid">
+          <a href="/#featured" class="category-item">
+            <span class="category-icon">💬</span>
+            <span class="category-name">沟通技巧</span>
+            <span class="category-count">42 篇内容</span>
+          </a>
+          <a href="/#featured" class="category-item">
+            <span class="category-icon">🔍</span>
+            <span class="category-name">依恋类型</span>
+            <span class="category-count">28 篇内容</span>
+          </a>
+          <a href="/#featured" class="category-item">
+            <span class="category-icon">🔄</span>
+            <span class="category-name">关系修复</span>
+            <span class="category-count">35 篇内容</span>
+          </a>
+          <a href="/#featured" class="category-item">
+            <span class="category-icon">🧭</span>
+            <span class="category-name">自我边界</span>
+            <span class="category-count">19 篇内容</span>
+          </a>
+          <a href="/#featured" class="category-item">
+            <span class="category-icon">🌱</span>
+            <span class="category-name">分手疗愈</span>
+            <span class="category-count">24 篇内容</span>
+          </a>
+          <a href="/#featured" class="category-item">
+            <span class="category-icon">🏡</span>
+            <span class="category-name">长期关系</span>
+            <span class="category-count">31 篇内容</span>
+          </a>
+          <a href="/#featured" class="category-item">
+            <span class="category-icon">💡</span>
+            <span class="category-name">暧昧期</span>
+            <span class="category-count">16 篇内容</span>
+          </a>
+          <a href="/#featured" class="category-item">
+            <span class="category-icon">🤝</span>
+            <span class="category-name">信任重建</span>
+            <span class="category-count">22 篇内容</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- 板块5：深度解析正文 -->
+      <section class="content-section" id="deep-dive">
+        <div class="section-header">
+          <h2>深度解析：关系修复与自我成长的实际路径</h2>
+        </div>
+        <div class="deep-dive">
+          <h3>冲突修复的关键不在“道歉”，而在“理解需求”</h3>
+          <p>很多关系里的冲突反复出现，不是因为双方不够爱，而是因为道歉和沟通停留在表面。争吵时说的“你根本不在乎我”，背后往往对应一个具体的未被满足的需求：可能是希望对方在朋友面前给足面子，可能是需要下班后有一段不被打扰的独处时间，也可能是期待重要决定前被提前商量。</p>
+          <p>有效的冲突修复通常包含三步：先识别情绪背后的具体需求，再用对方能接住的方式表达，最后确认双方对解决方案的理解是否一致。这三步里最容易跳过的是第一步，因为识别自己的需求本身就需要练习。</p>
+          <ul>
+            <li>把“你总是……”换成“当……发生的时候，我感到……，因为我需要……”</li>
+            <li>冲突升级时先约定暂停信号，比如“我需要 20 分钟整理思路”，而不是直接离场</li>
+            <li>修复对话结束后，用一句话确认“所以下次我们遇到类似情况，可以……”</li>
+          </ul>
+
+          <h3>回避型与安全型在关系中的具体差异</h3>
+          <p>依恋类型不是标签，而是一套理解关系反应模式的框架。回避型依恋和安全性依恋在面对亲密推进时的表现差异，往往体现在一些非常具体的日常行为上，而不是笼统的“冷漠”或“热情”。</p>
+          <p>安全性依恋的人在关系升温时倾向于表达感受并寻求确认，而回避型依恋的人可能在同一时刻感到压力，用工作忙、需要空间等方式拉开距离。这种差异容易触发对方的焦虑，形成“追—逃”循环。理解这一机制的意义在于：把“对方不爱我”的归因，调整为“对方在亲密推进时习惯性撤退”，从而选择更有效的沟通时机和方式。</p>
+          <ul>
+            <li>回避型在冲突后需要更长的情绪冷却时间，过早要求“把话说清楚”可能适得其反</li>
+            <li>安全型可以成为关系里的稳定器，但需要避免无底线承接对方的撤退行为</li>
+            <li>依恋类型具有可塑性，长期的稳定关系互动可以逐步改变反应模式</li>
+          </ul>
+
+          <h3>长期关系里的“仪式感”到底在解决什么问题</h3>
+          <p>长期关系中的仪式感，本质上是为关系提供可预期的连接节点。在一起久了之后，日常事务会逐渐挤压情感交流的空间，仪式感的作用不是制造浪漫幻觉，而是用固定的、低成本的安排，确保双方有规律地回到“我们”的视角里。</p>
+          <p>有效的仪式感通常具备三个特征：可持续、低压力、有专属感。可持续意味着不需要大量时间或金钱投入；低压力意味着双方都乐意参与，而不是一方被迫配合；有专属感意味着这个安排只属于你们两个人，区别于普通的日常事务。比如每周固定一次不带手机的散步、每月交换一封手写短笺、每年在同一个地方拍一张合照，都属于符合这三个特征的设计。</p>
+          <p>需要留意的是，仪式感一旦变成考核指标，就会失效。当一方开始计较“你为什么没有准备纪念日礼物”时，仪式感已经变成了压力源。回到关系的实际需求，比完成形式更重要。</p>
+        </div>
+      </section>
+
+      <!-- 板块6：体验指南 / 消费路径 -->
+      <section class="content-section" id="guide">
+        <div class="section-header">
+          <h2>情感内容消费指南：从哪开始看，怎么看</h2>
+        </div>
+        <div class="guide-steps">
+          <div class="guide-step">
+            <div class="step-number">1</div>
+            <div class="step-body">
+              <h4>先定位自己当前的关系阶段</h4>
+              <p>单身、暧昧期、恋爱中、长期关系、分手后，不同阶段关注的重点完全不同。先确认阶段，再选择对应分类，能避免被不相关的内容带偏节奏。比如分手后阶段优先看情绪整理和边界重建，而不是恋爱技巧。</p>
+            </div>
+          </div>
+          <div class="guide-step">
+            <div class="step-number">2</div>
+            <div class="step-body">
+              <h4>判断一篇内容是否值得投入时间</h4>
+              <p>看三个信号：是否有具体场景描述、是否给出可操作的判断依据、是否承认适用边界。只讲结论不给场景的内容参考价值有限；声称“所有人都适用”的指南通常需要谨慎对待。好的关系内容会告诉你什么情况下不适用。</p>
+            </div>
+          </div>
+          <div class="guide-step">
+            <div class="step-number">3</div>
+            <div class="step-body">
+              <h4>同类内容怎么比较和取舍</h4>
+              <p>面对多篇讲同一话题的内容，优先选择有真实案例复盘、有明确步骤拆解、有失败经验分享的版本。观点类内容适合拓展视角，案例类内容适合对照自身情况，两者搭配阅读效果更好。不必追求全部读完，找到最贴近自己处境的 2—3 篇深入看即可。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 板块7：FAQ -->
+      <section class="content-section" id="faq">
+        <div class="section-header">
+          <h2>常见问答</h2>
+        </div>
+        <div class="faq-list">
+          <details class="faq-item">
+            <summary>第一次接触依恋类型，从哪个条目开始看比较好？</summary>
+            <div class="faq-answer">建议从“回避型依恋的 7 个日常识别信号”开始，因为它用具体行为描述替代抽象定义，更容易对照自身或伴侣的日常表现。看完后再读安全性依恋和焦虑型依恋的对比内容，能建立更完整的框架。</div>
+          </details>
+          <details class="faq-item">
+            <summary>冷战一般持续多久算正常，什么时候需要主动介入？</summary>
+            <div class="faq-answer">冷战没有统一的“正常时长”，关键看双方是否还在维持基本生活互动。如果超过 48 小时完全零交流，且其中一方已经出现明显的情绪困扰或生活受影响，建议主动开启一次低门槛的接触，比如倒杯水、发一条不带指责的短消息。破冰的目的不是立刻解决问题，而是先恢复对话通道。</div>
+          </details>
+          <details class="faq-item">
+            <summary>回避型依恋和单纯的“独立”有什么区别？</summary>
+            <div class="faq-answer">独立的人能够在需要时主动寻求支持，也能享受独处；回避型依恋的人在亲密推进时倾向于撤退，即使在需要支持时也习惯自己扛，并且对伴侣的靠近感到压力。区别在于“有没有选择权”：独立是主动选择，回避是习惯性防御。</div>
+          </details>
+          <details class="faq-item">
+            <summary>信任受损后，重建一般需要多长时间？</summary>
+            <div class="faq-answer">没有标准时间表，但通常需要经历几个阶段：坦诚沟通期、行为验证期、情绪巩固期。每个阶段的实际长度取决于伤害程度、双方投入程度和日常互动的稳定性。比时间更重要的是验证信号：对方是否持续保持行为一致、是否愿意接受合理的透明度要求、是否在情绪反复时仍然保持耐心。</div>
+          </details>
+          <details class="faq-item">
+            <summary>长期关系里仪式感真的有必要吗，会不会变成形式主义？</summary>
+            <div class="faq-answer">有必要，但前提是低压力和双方自愿。仪式感的价值在于创造固定的连接节点，防止关系被日常事务完全吞没。如果仪式感变成单方面的期待和考核，就失去了原本的意义。判断标准很简单：做这件事的时候，双方是放松的还是紧绷的。</div>
+          </details>
+          <details class="faq-item">
+            <summary>暧昧期哪些信号容易误判？</summary>
+            <div class="faq-answer">高频聊天、深夜联系、分享日常细节，这三类信号容易被过度解读。高频聊天可能只是对方习惯性社交；深夜联系有时只是孤独感驱动；分享日常细节也可能出于朋友间的信任。更可靠的判断依据是：对方是否在现实层面主动创造见面机会，以及是否在你表达需求后给出明确回应。</div>
+          </details>
+        </div>
+      </section>
+
+      <!-- 板块8：用户评论 -->
+      <section class="content-section" id="comments">
+        <div class="section-header">
+          <h2>岛民评论</h2>
+          <span class="section-sub">来自社区的真实讨论</span>
+        </div>
+        <div class="comment-list">
+          <div class="comment-item">
+            <div class="comment-avatar" style="background:#c94f6e;">林</div>
+            <div class="comment-body">
+              <div class="comment-header">
+                <span class="comment-nickname">林间有风</span>
+                <span class="comment-time">今天 10:20</span>
+              </div>
+              <p class="comment-text">冷战破冰那篇里的“我句式”练习很实用，照着改了跟伴侣开口的第一句话，确实没有像以前一样一开口就吵起来。</p>
+            </div>
+          </div>
+          <div class="comment-item">
+            <div class="comment-avatar" style="background:#e8a87c;">柚</div>
+            <div class="comment-body">
+              <div class="comment-header">
+                <span class="comment-nickname">柚子气泡水</span>
+                <span class="comment-time">昨天 22:15</span>
+              </div>
+              <p class="comment-text">回避型依恋那篇看完有点被戳到，但我觉得自己更像“独立”而不是“回避”，可能还需要再对照看看。</p>
+            </div>
+          </div>
+          <div class="comment-item">
+            <div class="comment-avatar" style="background:#8a4a5c;">深</div>
+            <div class="comment-body">
+              <div class="comment-header">
+                <span class="comment-nickname">深海回音</span>
+                <span class="comment-time">昨天 19:40</span>
+              </div>
+              <p class="comment-text">信任重建的路径图逻辑挺清楚的，坦诚期、验证期、巩固期这个划分比笼统说“慢慢来”更有方向感。</p>
+            </div>
+          </div>
+          <div class="comment-item">
+            <div class="comment-avatar" style="background:#a83a55;">南</div>
+            <div class="comment-body">
+              <div class="comment-header">
+                <span class="comment-nickname">南风知我意</span>
+                <span class="comment-time">11-07 18:30</span>
+              </div>
+              <p class="comment-text">仪式感那篇提到“低压力”很关键。之前就是被各种纪念日压得喘不过气，后来改成每个月一起做顿饭，反而轻松很多。</p>
+            </div>
+          </div>
+          <div class="comment-item">
+            <div class="comment-avatar" style="background:#d4916a;">小</div>
+            <div class="comment-body">
+              <div class="comment-header">
+                <span class="comment-nickname">小满未满</span>
+                <span class="comment-time">11-07 15:10</span>
+              </div>
+              <p class="comment-text">暧昧期误判信号那篇，提到的“只在深夜联系”简直是我上一段经历的翻版，早知道就早点看。</p>
+            </div>
+          </div>
+          <div class="comment-item">
+            <div class="comment-avatar" style="background:#c94f6e;">月</div>
+            <div class="comment-body">
+              <div class="comment-header">
+                <span class="comment-nickname">月光落岛</span>
+                <span class="comment-time">11-07 11:25</span>
+              </div>
+              <p class="comment-text">分手疗愈清单里“社交边界”那一节很实际，尤其是共同朋友的处理，之前完全没想过要怎么开口。</p>
+            </div>
+          </div>
+          <div class="comment-item">
+            <div class="comment-avatar" style="background:#8a4a5c;">知</div>
+            <div class="comment-body">
+              <div class="comment-header">
+                <span class="comment-nickname">知更鸟</span>
+                <span class="comment-time">11-06 21:50</span>
+              </div>
+              <p class="comment-text">情绪表达三层框架我练了一周，从“我没事”到能说出“我现在有点失落，因为……”，确实需要练习，但有效。</p>
+            </div>
+          </div>
+          <div class="comment-item">
+            <div class="comment-avatar" style="background:#e8a87c;">山</div>
+            <div class="comment-body">
+              <div class="comment-header">
+                <span class="comment-nickname">山茶与海</span>
+                <span class="comment-time">11-06 16:05</span>
+              </div>
+              <p class="comment-text">边界感话语模板很实用，特别是“需要独处时间”那句，终于知道怎么说不伤人了。</p>
+            </div>
+          </div>
+          <div class="comment-item">
+            <div class="comment-avatar" style="background:#a83a55;">半</div>
+            <div class="comment-body">
+              <div class="comment-header">
+                <span class="comment-nickname">半糖主义</span>
+                <span class="comment-time">11-05 20:30</span>
+              </div>
+              <p class="comment-text">长期关系那篇讲得比较中肯，不过我觉得不同情侣的节奏差异很大，参考框架就好，不用硬套。</p>
+            </div>
+          </div>
+          <div class="comment-item">
+            <div class="comment-avatar" style="background:#d4916a;">海</div>
+            <div class="comment-body">
+              <div class="comment-header">
+                <span class="comment-nickname">海边卡夫卡</span>
+                <span class="comment-time">11-05 14:18</span>
+              </div>
+              <p class="comment-text">想问一下焦虑型依恋和回避型依恋在一起是不是真的很难长久？有没有相关的专题可以看。</p>
+            </div>
+          </div>
+          <div class="comment-item">
+            <div class="comment-avatar" style="background:#c94f6e;">青</div>
+            <div class="comment-body">
+              <div class="comment-header">
+                <span class="comment-nickname">青柠不酸</span>
+                <span class="comment-time">11-04 19:00</span>
+              </div>
+              <p class="comment-text">精选故事里的案例都挺具体的，不是那种空泛的鸡汤，看的时候能代入自己的场景去想。</p>
+            </div>
+          </div>
+          <div class="comment-item">
+            <div class="comment-avatar" style="background:#8a4a5c;">温</div>
+            <div class="comment-body">
+              <div class="comment-header">
+                <span class="comment-nickname">温柔抵抗</span>
+                <span class="comment-time">11-04 10:45</span>
+              </div>
+              <p class="comment-text">信任重建那篇提到“哪些情况值得修复”，这个视角很重要，不是所有关系都值得修复，承认这一点反而更负责任。</p>
+            </div>
+          </div>
+          <div class="comment-item">
+            <div class="comment-avatar" style="background:#e8a87c;">晚</div>
+            <div class="comment-body">
+              <div class="comment-header">
+                <span class="comment-nickname">晚风信箱</span>
+                <span class="comment-time">11-03 22:10</span>
+              </div>
+              <p class="comment-text">希望可以多出一些关于“如何判断一段关系是否健康”的具体标准，现在的内容偏向修复，预防类的不太多。</p>
+            </div>
+          </div>
+          <div class="comment-item">
+            <div class="comment-avatar" style="background:#a83a55;">鹿</div>
+            <div class="comment-body">
+              <div class="comment-header">
+                <span class="comment-nickname">鹿鸣岛</span>
+                <span class="comment-time">11-03 15:30</span>
+              </div>
+              <p class="comment-text">秋季书单里的第三本看过，确实很适合刚开始了解依恋理论的人入门，选读理由写得也到位。</p>
+            </div>
+          </div>
+          <div class="comment-item">
+            <div class="comment-avatar" style="background:#d4916a;">木</div>
+            <div class="comment-body">
+              <div class="comment-header">
+                <span class="comment-nickname">木棉道</span>
+                <span class="comment-time">11-02 20:05</span>
+              </div>
+              <p class="comment-text">FAQ里“冷战一般持续多久”这个回答挺好的，没有给死标准，而是给了判断依据，这样更实际。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 板块9：相关资讯 -->
+      <section class="content-section" id="news">
+        <div class="section-header">
+          <h2>相关资讯</h2>
+          <span class="section-sub">2026 年 10 月下旬至 11 月初</span>
+        </div>
+        <div class="news-list">
+          <article class="news-item">
+            <div class="news-thumb">
+              <img src="https://picsum.photos/seed/zixun-yilian60/600/400" alt="依恋类型社区讨论趋势配图" width="600" height="400" loading="lazy">
+            </div>
+            <div class="news-body">
+              <h3 class="news-title">依恋类型内容热度上升，回避型识别成讨论焦点</h3>
+              <p class="news-summary">过去两周社区中“回避型依恋”相关话题讨论量增长明显，用户更关注日常行为识别和相处策略。</p>
+              <span class="news-date">2026-11-07</span>
+            </div>
+          </article>
+          <article class="news-item">
+            <div class="news-thumb">
+              <img src="https://picsum.photos/seed/zixun-shudan55/600/400" alt="秋季情感书单封面" width="600" height="400" loading="lazy">
+            </div>
+            <div class="news-body">
+              <h3 class="news-title">秋季情感书单上线，依恋与沟通类占比最高</h3>
+              <p class="news-summary">本期书单共 8 本，其中依恋理论 3 本、沟通实践 3 本、关系叙事 2 本，均附选读建议。</p>
+              <span class="news-date">2026-11-05</span>
+            </div>
+          </article>
+          <article class="news-item">
+            <div class="news-thumb">
+              <img src="https://picsum.photos/seed/zixun-wenda48/600/400" alt="社区问答专场预告配图" width="600" height="400" loading="lazy">
+            </div>
+            <div class="news-body">
+              <h3 class="news-title">11 月社区问答专场定档，主题聚焦需求表达</h3>
+              <p class="news-summary">活动将于 11 月 8 日晚开放，限 80 人参与，问答记录将在活动结束后整理发布。</p>
+              <span class="news-date">2026-11-04</span>
+            </div>
+          </article>
+          <article class="news-item">
+            <div class="news-thumb">
+              <img src="https://picsum.photos/seed/zixun-lengzhan37/600/400" alt="冷战破冰专题更新配图" width="600" height="400" loading="lazy">
+            </div>
+            <div class="news-body">
+              <h3 class="news-title">冷战破冰专题新增场景化对话示例</h3>
+              <p class="news-summary">补充“已读不回”“分房睡”“当没事发生”三种情境的破冰话术，强调非指责性开场。</p>
+              <span class="news-date">2026-11-03</span>
+            </div>
+          </article>
+          <article class="news-item">
+            <div class="news-thumb">
+              <img src="https://picsum.photos/seed/zixun-bianjie29/600/400" alt="边界感模板使用反馈配图" width="600" height="400" loading="lazy">
+            </div>
+            <div class="news-body">
+              <h3 class="news-title">边界感话语模板使用反馈：最难的是第一步</h3>
+              <p class="news-summary">社区用户反馈显示，表达需求前的心理建设比话语本身更难，专题将补充准备阶段的练习建议。</p>
+              <span class="news-date">2026-11-01</span>
+            </div>
+          </article>
+          <article class="news-item">
+            <div class="news-thumb">
+              <img src="https://picsum.photos/seed/zixun-fenshou18/600/400" alt="分手疗愈清单更新配图" width="600" height="400" loading="lazy">
+            </div>
+            <div class="news-body">
+              <h3 class="news-title">分手疗愈清单修订，社交边界章节反馈积极</h3>
+              <p class="news-summary">新增的“共同朋友处理”“社交媒体断联节奏”两节内容，成为近期收藏最多的章节。</p>
+              <span class="news-date">2026-10-30</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 板块10：相关推荐 -->
+      <section class="content-section" id="recommend">
+        <div class="section-header">
+          <h2>延伸方向与相关标签</h2>
+          <span class="section-sub">按主题深入</span>
+        </div>
+        <div class="tag-index">
+          <a href="/#featured">焦虑型依恋相处策略</a>
+          <a href="/#featured">非暴力沟通练习</a>
+          <a href="/#featured">关系中的情绪价值</a>
+          <a href="/#featured">异地恋维持方法</a>
+          <a href="/#featured">原生家庭与亲密关系</a>
+          <a href="/#featured">关系复盘怎么写</a>
+          <a href="/#featured">亲密关系中的安全感</a>
+          <a href="/#featured">冲突后的修复对话</a>
+        </div>
+      </section>
+
+      <!-- 板块11：补充板块 - 更新轨迹时间线 -->
+      <section class="content-section" id="timeline">
+        <div class="section-header">
+          <h2>近两周更新轨迹</h2>
+          <span class="section-sub">2026-10-26 至 2026-11-08</span>
+        </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">2026-11-08</div>
+            <div class="timeline-title">冷战破冰话术专题补充 3 组对话示例</div>
+            <p class="timeline-desc">覆盖已读不回、分房睡、当没事发生三种情境。</p>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">2026-11-07</div>
+            <div class="timeline-title">回避型依恋自测清单更新至 v2.3</div>
+            <p class="timeline-desc">新增亲密推进后的疏离反应维度，调整题目表述。</p>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">2026-11-05</div>
+            <div class="timeline-title">秋季情感书单 8 本上线</div>
+            <p class="timeline-desc">涵盖依恋理论、沟通实践、关系叙事三个方向。</p>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">2026-11-03</div>
+            <div class="timeline-title">边界感话语模板新增 6 句日常表达</div>
+            <p class="timeline-desc">针对不想参加聚会、需要独处时间等具体情境。</p>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">2026-11-01</div>
+            <div class="timeline-title">暧昧期误判信号清单补充 2 个案例</div>
+            <p class="timeline-desc">新增高频聊天不约见、只在深夜联系两种情境分析。</p>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">2026-10-30</div>
+            <div class="timeline-title">分手疗愈清单新增社交边界章节</div>
+            <p class="timeline-desc">涵盖共同朋友处理、社交媒体断联节奏等内容。</p>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- 右侧辅助栏 -->
+    <aside class="aux-sidebar" aria-label="辅助信息">
+      <div class="sidebar-card">
+        <div class="sidebar-card-header">
+          <h3>热门话题排行</h3>
+          <a href="/#featured" class="more-link">更多</a>
+        </div>
+        <ul class="sidebar-list">
+          <li><span class="rank top">1</span><span class="item-text"><a href="/#featured">冷战破冰的 5 种开口方式</a></span><span class="item-hot">9.2</span></li>
+          <li><span class="rank top">2</span><span class="item-text"><a href="/#featured">回避型依恋识别信号</a></span><span class="item-hot">8.8</span></li>
+          <li><span class="rank top">3</span><span class="item-text"><a href="/#featured">分手后第一个月情绪清单</a></span><span class="item-hot">9.0</span></li>
+          <li><span class="rank">4</span><span class="item-text"><a href="/#featured">暧昧期推进时机与误判</a></span><span class="item-hot">8.7</span></li>
+          <li><span class="rank">5</span><span class="item-text"><a href="/#featured">长期关系仪式感设计</a></span><span class="item-hot">8.5</span></li>
+          <li><span class="rank">6</span><span class="item-text"><a href="/#featured">信任重建的 3 个阶段</a></span><span class="item-hot">8.4</span></li>
+        </ul>
+      </div>
+
+      <div class="sidebar-card">
+        <div class="sidebar-card-header">
+          <h3>实时更新流</h3>
+        </div>
+        <div class="update-stream">
+          <div class="update-item">
+            <span class="update-dot"></span>
+            <div>
+              <div>冷战破冰话术专题更新</div>
+              <div class="update-time">今天 09:30</div>
+            </div>
+          </div>
+          <div class="update-item">
+            <span class="update-dot"></span>
+            <div>
+              <div>回避型依恋自测清单 v2.3</div>
+              <div class="update-time">昨天 21:10</div>
+            </div>
+          </div>
+          <div class="update-item">
+            <span class="update-dot"></span>
+            <div>
+              <div>11 月社区问答专场开放报名</div>
+              <div class="update-time">11-07 18:00</div>
+            </div>
+          </div>
+          <div class="update-item">
+            <span class="update-dot"></span>
+            <div>
+              <div>分手疗愈清单新增社交边界</div>
+              <div class="update-time">11-06 14:20</div>
+            </div>
+          </div>
+          <div class="update-item">
+            <span class="update-dot"></span>
+            <div>
+              <div>仪式感设计清单扩充至 18 项</div>
+              <div class="update-time">11-05 11:00</div>
+            </div>
+          </div>
+          <div class="update-item">
+            <span class="update-dot"></span>
+            <div>
+              <div>信任重建路径图完成阶段梳理</div>
+              <div class="update-time">11-04 16:45</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebar-card">
+        <div class="sidebar-card-header">
+          <h3>热门标签</h3>
+        </div>
+        <div style="padding: var(--space-sm) var(--space-md); display: flex; flex-wrap: wrap; gap: 6px;">
+          <span class="tag">沟通技巧</span>
+          <span class="tag">冷战破冰</span>
+          <span class="tag">回避型</span>
+          <span class="tag">边界感</span>
+          <span class="tag">仪式感</span>
+          <span class="tag">分手疗愈</span>
+          <span class="tag">暧昧期</span>
+          <span class="tag">信任重建</span>
+          <span class="tag">情绪表达</span>
+          <span class="tag">依恋类型</span>
+        </div>
+      </div>
+    </aside>
+
+  </div>
+</main>
+
+<!-- 页尾 -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <svg width="28" height="28" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+            <circle cx="18" cy="18" r="16" fill="#c94f6e"/>
+            <path d="M18 28c-5-3.5-9.5-7.5-9.5-12.5C8.5 11.5 11.5 9 14.5 9c1.8 0 3 .9 3.5 1.8.5-.9 1.7-1.8 3.5-1.8 3 0 6 2.5 6 6.5 0 5-4.5 9-9.5 12.5z" fill="#fff"/>
+          </svg>
+          <span class="brand-text">爱情岛aqdlt</span>
+        </div>
+        <p class="footer-desc">汇聚情感故事、亲密关系成长与恋爱心理的深度内容，从真实案例、沟通技巧到自我探索，陪伴每一段关系的真实成长。</p>
+      </div>
+      <div class="footer-col">
+        <h4>内容方向</h4>
+        <ul>
+          <li><a href="/#overview">关系概览</a></li>
+          <li><a href="/#featured">精选故事</a></li>
+          <li><a href="/#latest">最新动态</a></li>
+          <li><a href="/#categories">情感分类</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>深度栏目</h4>
+        <ul>
+          <li><a href="/#deep-dive">深度解析</a></li>
+          <li><a href="/#guide">体验指南</a></li>
+          <li><a href="/#faq">常见问答</a></li>
+          <li><a href="/#recommend">延伸推荐</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>社区</h4>
+        <ul>
+          <li><a href="/#comments">岛民评论</a></li>
+          <li><a href="/#news">相关资讯</a></li>
+          <li><a href="/#timeline">更新轨迹</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-copy">© 2026 爱情岛aqdlt · 情感内容聚合示例</span>
+      <span class="footer-note">部分内容为示例数据，仅用于展示页面结构</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  (function() {
+    'use strict';
+
+    var searchInput = document.getElementById('searchInput');
+    var featuredGrid = document.getElementById('featuredGrid');
+    var noResultsFeatured = document.getElementById('noResultsFeatured');
+    var latestList = document.getElementById('latestList');
+
+    if (!searchInput) return;
+
+    function normalize(str) {
+      return (str || '').toLowerCase().replace(/\s+/g, '');
+    }
+
+    function filterContent() {
+      var query = normalize(searchInput.value.trim());
+      var hasQuery = query.length > 0;
+      var visibleFeatured = 0;
+      var visibleLatest = 0;
+
+      // 筛选精选卡片
+      if (featuredGrid) {
+        var cards = featuredGrid.querySelectorAll('.card');
+        cards.forEach(function(card) {
+          var searchable = normalize(card.getAttribute('data-searchable') || '') + normalize(card.textContent);
+          var match = !hasQuery || searchable.indexOf(query) !== -1;
+          if (match) {
+            card.classList.remove('hidden-by-search');
+            visibleFeatured++;
+          } else {
+            card.classList.add('hidden-by-search');
+          }
+        });
+      }
+
+      // 筛选最新列表
+      if (latestList) {
+        var items = latestList.querySelectorAll('.compact-item');
+        items.forEach(function(item) {
+          var searchable = normalize(item.getAttribute('data-searchable') || '') + normalize(item.textContent);
+          var match = !hasQuery || searchable.indexOf(query) !== -1;
+          if (match) {
+            item.classList.remove('hidden-by-search');
+            visibleLatest++;
+          } else {
+            item.classList.add('hidden-by-search');
+          }
+        });
+      }
+
+      // 精选无结果提示
+      if (noResultsFeatured) {
+        if (hasQuery && visibleFeatured === 0) {
+          noResultsFeatured.classList.add('visible');
+        } else {
+          noResultsFeatured.classList.remove('visible');
+        }
+      }
+
+      // 最新无结果提示（若全部隐藏则显示提示）
+      var latestNoResult = document.getElementById('latestNoResult');
+      if (!latestNoResult && latestList) {
+        latestNoResult = document.createElement('div');
+        latestNoResult.id = 'latestNoResult';
+        latestNoResult.className = 'no-results';
+        latestNoResult.textContent = '没有找到匹配的动态，试试其他关键词。';
+        latestList.parentNode.insertBefore(latestNoResult, latestList.nextSibling);
+      }
+      if (latestNoResult) {
+        if (hasQuery && visibleLatest === 0) {
+          latestNoResult.classList.add('visible');
+        } else {
+          latestNoResult.classList.remove('visible');
+        }
+      }
+    }
+
+    var debounceTimer;
+    searchInput.addEventListener('input', function() {
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(filterContent, 180);
+    });
+
+    searchInput.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        clearTimeout(debounceTimer);
+        filterContent();
+      }
+    });
+  })();
+</script>
+
+</body>
+                                           </html>
